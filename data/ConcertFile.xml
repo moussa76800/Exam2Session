@@ -1,0 +1,23 @@
+<Concert>
+  <designation>Brussels Summer Festival</designation>
+  <Artiste date="2021-08-25">
+    <nomArtiste>Ninho</nomArtiste>
+    <isVIP>true</isVIP>
+  </Artiste>
+  <Artiste date="2021-08-25">
+    <nomArtiste>Rimk</nomArtiste>
+    <isVIP>true</isVIP>
+  </Artiste>
+  <Artiste date="2021-08-25">
+    <nomArtiste>Jul</nomArtiste>
+    <isVIP>true</isVIP>
+  </Artiste>
+  <Artiste date="2021-08-25">
+    <nomArtiste>SCH</nomArtiste>
+    <isVIP>true</isVIP>
+  </Artiste>
+  <Artiste date="2021-08-25">
+    <nomArtiste>Naps</nomArtiste>
+    <isVIP>true</isVIP>
+  </Artiste>
+</Concert>
