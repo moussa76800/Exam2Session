@@ -8,7 +8,7 @@ class TestConcert {
 
 	@Test
 	void test() {
-		fail("Not yet implemented");
+		fail("bingo");
 	}
 
 }
