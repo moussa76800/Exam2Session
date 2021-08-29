@@ -32,7 +32,7 @@ public class Concert extends Evenement implements Manageable{
 	public ArrayList<Artiste> getVIPs(){
 		ArrayList<Artiste> artisteVIP = new ArrayList<Artiste>();
 		for (Artiste artiste : artistes) {
-			if(artiste.isVIP()==true) {
+			if(artiste.isVIP()) {
 				artisteVIP.add(artiste);
 			}
 		}
@@ -53,7 +53,7 @@ public class Concert extends Evenement implements Manageable{
 	public boolean hadArtist(Artiste a) {
 		boolean result = false;
 		if(artistes.contains(a)) {
-			throw new DuplicateArtistException("L'artiste est dÈj‡ prÈsent.");
+			throw new DuplicateArtistException("L'artiste est d√©j√† pr√©sent.");
 		}else {
 			artistes.add(a);
 			result = true;
